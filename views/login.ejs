@@ -1,0 +1,18 @@
+<h1>Login LOL</h1>
+<% if(messages.error) { %>
+    <%= locals.messages.error %>
+<%} %>
+
+
+<link rel="stylesheet" href="login.css">
+
+
+<form action="/login" id="f1" method="get">
+<button><a href="/register">Register</a></button>
+<input type="text" name="email" id="" placeholder="Enter Email" class="cls1"  required>
+<div class="break"></div>
+<input type="password" name="password" id="" placeholder="Enter password" class="cls1"  required>
+<div class="break"></div>
+<input type="submit" value="Login" id="btn1">
+
+</form>
